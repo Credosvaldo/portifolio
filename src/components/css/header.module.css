@@ -12,23 +12,29 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
 
-.header li {
-    padding: .6em;
-    margin: .3em;
+    overflow: visible;
 }
 
 .header a {
     text-decoration: none;
     color: white;
+    padding: .6em;
+    margin: .3em;
     
 }
 
-.header li:hover {
+.header a:hover {
     background-color: grey;
 }
 
 .header img {
     max-width: 7em;
+}
+
+
+@media (max-width: 500px) {
+    .header ul {
+        display: none;
+    }
 }

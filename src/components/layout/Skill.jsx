@@ -9,7 +9,7 @@ function Skill({skillId, svg, setCurrentSkill}) {
     return (
 
         <div className={`${styles.skillSpace} col-4`}>
-            <div className={styles.skill} onMouseOver={handleMouseOver}>
+            <div className={styles.skill} onMouseOver={handleMouseOver} onClick={handleMouseOver}>
                 {svg}
             </div>
         </div>

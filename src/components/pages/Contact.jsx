@@ -30,7 +30,7 @@ function Contact() {
         <div id="contact">
             <Titulo text={"Contatos"} />
 
-            <div className='row'>
+            <div className='d-flex justify-content-between'>
                 {
                     contactForms.map((contact, index) => <ContactForm key={index} form={contact} /> )
                 }

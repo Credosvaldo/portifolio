@@ -1,0 +1,28 @@
+:root {
+    --border-color: green;
+}
+
+.animationText {
+    display: flex;
+    margin: 0;
+}
+
+.animationText h1{
+    color: cyan;
+    border-right: 3px solid var(--border-color);
+    animation: cursor .8s infinite;
+    padding-right: .05em;
+}
+
+@keyframes cursor {
+
+    0%,
+    50% {
+        border-color: rgba(240, 248, 255, 0)
+    }
+
+    51%,
+    100% {
+        border-color: var(--border-color);
+    }
+}
