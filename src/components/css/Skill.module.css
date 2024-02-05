@@ -1,0 +1,23 @@
+.skill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 1.5em;
+    background-color: rgba(42, 42, 42, 0.503);
+    transition: .3s;
+    margin: 0;
+}
+
+.skill svg {
+    margin: auto;
+}
+
+.skillSpace {
+    padding: 1em;
+    margin: 0;
+    
+}
+
+.skill:hover {
+    background-color: rgb(40, 40, 40);
+}

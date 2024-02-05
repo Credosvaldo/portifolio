@@ -1,0 +1,13 @@
+.footer {
+    background-color: rgb(40, 40, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3em;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}

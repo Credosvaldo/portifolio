@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(40, 40, 40);
+    padding: 0 1em;
+
+}
+
+.header ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    padding: .6em;
+    margin: .3em;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+.header li:hover {
+    background-color: grey;
+}
+
+.header img {
+    max-width: 7em;
+}
