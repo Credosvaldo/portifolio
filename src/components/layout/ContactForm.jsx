@@ -4,13 +4,13 @@ import styles from '../css/ContactForm.module.css'
 function ContactForm({form}) {
     
     return (
-        <div className={`${styles.contactFormSpace}  `}>
+        <a href={form.link} target='blanck' className={`${styles.contactFormSpace}  `}>
             <div className={`${styles.contactForm}`}>
                 <h1>
-                    <a href={form.link} target='blanck'>{form.icon}</a>
+                    <span>{form.icon}</span>
                 </h1>
             </div>
-        </div>
+        </a>
     )
 }
 
