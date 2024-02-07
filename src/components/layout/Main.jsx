@@ -23,7 +23,7 @@ function Main() {
     }, [])
 
     return (
-        <main className={`${styles.main} scrollReveal`}>,
+        <main className={`${styles.main} scrollReveal`}>
             <Start />
             <Projetos />
             <Skills />
