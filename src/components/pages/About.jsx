@@ -24,7 +24,7 @@ function About() {
                     <img src={foto} alt="Foto" />
                 </div>
                 <div className='col-md-6 mb-5'>
-                    Comecei meus estudos sobre programação quando tinha apenas 11 anos de idade em cursos de programação para jovens e crianças, hoje com {idade} sou estudante de Engenharia de Software na PUC Minas onde fui nomeado destaque acadêmico além de já ter trabalhado como monitor. Possuo conhecimentos em React, Spring Boot e banco de dados. Amo a área a muito tempo estando sempre animado para encarar um novo desafio e tenho grande facilidade em trabalhos em equipe.
+                    Comecei meus estudos sobre programação quando tinha apenas 11 anos de idade em cursos de programação para jovens e crianças, hoje com {idade}, sou estudante de Engenharia de Software na PUC Minas, onde fui nomeado destaque acadêmico, além de já ter trabalhado como monitor. Possuo conhecimentos em React, Spring Boot e banco de dados. Amo a área há muito tempo, estando sempre animado para encarar um novo desafio. Tenho grande facilidade em trabalhar em equipe. 
                 </div>
             </div>
         </div>
