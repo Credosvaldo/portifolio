@@ -86,7 +86,7 @@ function Skills() {
     const [skill, setSkill ] = useState(0)
 
     return (
-        <div id="skills">
+        <div id="skills" data-aos="fade-right">
             <Titulo text={"Habilidades"} />
 
             <div className={`row`}>

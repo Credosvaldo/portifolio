@@ -7,7 +7,7 @@ import WritingAnimation from '../layout/WritingAnimation'
 function Start() {
 
     return (
-        <div className={styles.start}>
+        <div className={styles.start} data-aos="fade-up">
             <div>
                 <p>Olá mundo, eu sou:</p>
                 <WritingAnimation text={"Pedro Henrique"} timeByLetter={150} />

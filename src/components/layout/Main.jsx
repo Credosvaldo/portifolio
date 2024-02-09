@@ -7,7 +7,10 @@ import About from '../pages/About'
 import Certificate from '../pages/Certificate'
 import Contact from '../pages/Contact'
 
-import ScrollReveal from 'scrollreveal'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+
 
 import { useEffect } from 'react'
 
@@ -15,11 +18,11 @@ function Main() {
 
 
     useEffect(() => {
-        ScrollReveal().reveal('.scrollReveal > *', {
-            reset: true,
-            duration: 800,
-        })
-
+        AOS.init({
+            duration: 2000,
+            mirror: true,
+            easing: 'ease-out-back'
+        });
     }, [])
 
     return (

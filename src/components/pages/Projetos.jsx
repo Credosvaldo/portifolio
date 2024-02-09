@@ -9,7 +9,7 @@ import projectImage from '../imgs/projetos/gradeInteligente.jpg'
 function Projetos() {
 
     return (
-        <div id='projects'>
+        <div id='projects' data-aos="fade-left">
             <Titulo text={"Projetos"} />
 
             <div className={styles.projetos}>

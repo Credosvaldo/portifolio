@@ -27,7 +27,7 @@ function Contact() {
     ]
     
     return (
-        <div id="contact">
+        <div id="contact" data-aos="fade-right">
             <Titulo text={"Contatos"} />
 
             <div className='d-flex justify-content-between'>
