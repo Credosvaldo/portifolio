@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portifolio/static/css/main.df161ebf.css",
-    "main.js": "/portifolio/static/js/main.eb71f343.js",
+    "main.css": "/portifolio/static/css/main.1424e2ba.css",
+    "main.js": "/portifolio/static/js/main.0ffe2119.js",
     "static/media/foto.png": "/portifolio/static/media/foto.9c1af17fa65d20ae8c05.png",
     "static/media/startImage.png": "/portifolio/static/media/startImage.f8dd5cce72bcb81fe767.png",
     "static/media/gradeInteligente.jpg": "/portifolio/static/media/gradeInteligente.514256d2b1f6c39f5b79.jpg",
     "static/media/logo.png": "/portifolio/static/media/logo.82d8f357e2703ff2720f.png",
     "index.html": "/portifolio/index.html",
-    "main.df161ebf.css.map": "/portifolio/static/css/main.df161ebf.css.map",
-    "main.eb71f343.js.map": "/portifolio/static/js/main.eb71f343.js.map"
+    "main.1424e2ba.css.map": "/portifolio/static/css/main.1424e2ba.css.map",
+    "main.0ffe2119.js.map": "/portifolio/static/js/main.0ffe2119.js.map"
   },
   "entrypoints": [
-    "static/css/main.df161ebf.css",
-    "static/js/main.eb71f343.js"
+    "static/css/main.1424e2ba.css",
+    "static/js/main.0ffe2119.js"
   ]
 }
