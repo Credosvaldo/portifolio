@@ -13,7 +13,7 @@ function Projetos() {
             <Titulo text={"Projetos"} />
 
             <div className={styles.projetos}>
-                <Project image={projectImage} link={"http://www.gradeinteligente.com/"} />
+                <Project image={projectImage} link={"https://icei.pucminas.br/gradeinteligente/"} />
                 <Project />
       
             </div>
